@@ -1,0 +1,32 @@
+Check Category,Check Name,Target Table,Expected Result,Actual Result,Status
+Row Count,DimCustomer Row Count,DimCustomer,"50,000","50,000",PASS
+Row Count,DimProduct Row Count,DimProduct,500,500,PASS
+Row Count,DimStore Row Count,DimStore,30,30,PASS
+Row Count,DimDate Row Count,DimDate,731,731,PASS
+Row Count,FactSales Row Count,FactSales,"320,536","320,536",PASS
+Uniqueness,DimCustomer Duplicate PK Count,DimCustomer,0,0,PASS
+Uniqueness,DimProduct Duplicate PK Count,DimProduct,0,0,PASS
+Uniqueness,DimStore Duplicate PK Count,DimStore,0,0,PASS
+Uniqueness,DimDate Duplicate PK Count,DimDate,0,0,PASS
+Uniqueness,FactSales Duplicate PK Count,FactSales,0,0,PASS
+Completeness,DimCustomer Critical Columns Null Count,DimCustomer,0,0,PASS
+Completeness,DimProduct Critical Columns Null Count,DimProduct,0,0,PASS
+Completeness,DimStore Critical Columns Null Count,DimStore,0,0,PASS
+Completeness,DimDate Critical Columns Null Count,DimDate,0,0,PASS
+Completeness,FactSales Critical Columns Null Count,FactSales,0,0,PASS
+Referential Integrity,FactSales -> DimCustomer Orphan CustomerIDs,FactSales,0,0,PASS
+Referential Integrity,FactSales -> DimProduct Orphan ProductIDs,FactSales,0,0,PASS
+Referential Integrity,FactSales -> DimStore Orphan StoreIDs,FactSales,0,0,PASS
+Referential Integrity,FactSales -> DimDate Orphan DateKeys,FactSales,0,0,PASS
+Validity,FactSales Unparseable Dates,FactSales,0,0,PASS
+Validity,FactSales Date Range In Bounds (2023-2024),FactSales,True (2023-01-01 to 2024-12-31),2023-01-01 to 2024-12-31,PASS
+Validity,FactSales Non-Positive Quantities (<= 0),FactSales,0,0,PASS
+Validity,"FactSales Discounts Outside [0.0, 1.0]",FactSales,0,0,PASS
+Financial Consistency,Discount Amount = Gross * Discount Mismatch,FactSales,0,0,PASS
+Financial Consistency,Sales Amount = Gross - Discount Amount Mismatch,FactSales,0,0,PASS
+Financial Consistency,Cost Amount = Quantity * UnitCost Mismatch,FactSales,0,0,PASS
+Financial Consistency,Profit = Sales Amount - Cost Amount Mismatch,FactSales,0,0,PASS
+Financial Consistency,Direct Profit Identity (Profit == Sales - Cost),FactSales,0,0,PASS
+Categorical Validity,DimProduct Invalid Categories,DimProduct,0,0,PASS
+Categorical Validity,DimCustomer Invalid CustomerSegments,DimCustomer,0,0,PASS
+Categorical Validity,DimCustomer Non-5-Digit PostalCodes,DimCustomer,0,0,PASS

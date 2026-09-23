@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# SQL Server/local database files
+*.bak
+*.trn
+*.mdf
+*.ldf
+
+# Logs/temp files
+*.log
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

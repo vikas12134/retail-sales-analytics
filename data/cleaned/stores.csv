@@ -1,0 +1,31 @@
+StoreID,StoreName,StoreType,City,State,Region,SquareFootage,OpenDate,ManagerName
+STR-01,Aura Direct E-Commerce,Online,National Online,NATIONAL,National,0,2020-01-15,Alex Rivera
+STR-02,Aura Chicago Flagship,Flagship Store,Chicago,IL,North,28648,2022-06-10,Patrick Sanchez
+STR-03,Aura Minneapolis Mall Outlet,Mall Outlet,Minneapolis,MN,North,15409,2018-03-10,Megan Mcclain
+STR-04,Aura Detroit Mall Outlet,Mall Outlet,Detroit,MI,North,19506,2017-09-28,Amanda Davis
+STR-05,Aura Columbus Standalone,Standalone Store,Columbus,OH,North,14006,2018-12-24,Alyssa Gonzalez
+STR-06,Aura Milwaukee Standalone,Standalone Store,Milwaukee,WI,North,13828,2021-08-21,Jerry Ramirez
+STR-07,Aura Indianapolis Mall Outlet,Mall Outlet,Indianapolis,IN,North,12033,2017-01-21,Caitlin Henderson
+STR-08,Aura Des Moines Mall Outlet,Mall Outlet,Des Moines,IA,North,11543,2019-05-14,Tyler Rogers
+STR-09,Aura Houston Flagship,Flagship Store,Houston,TX,South,27848,2017-10-16,Ian Cooper
+STR-10,Aura Dallas Mall Outlet,Mall Outlet,Dallas,TX,South,21912,2019-04-02,Monica Herrera
+STR-11,Aura Austin Mall Outlet,Mall Outlet,Austin,TX,South,15520,2020-03-22,Edward Fuller
+STR-12,Aura Atlanta Standalone,Standalone Store,Atlanta,GA,South,12244,2020-01-29,Michele Williams
+STR-13,Aura Miami Standalone,Standalone Store,Miami,FL,South,12767,2018-12-10,Victoria Wyatt
+STR-14,Aura Charlotte Mall Outlet,Mall Outlet,Charlotte,NC,South,7905,2017-11-10,Jesse Flowers
+STR-15,Aura Nashville Standalone,Standalone Store,Nashville,TN,South,10931,2018-05-21,Daniel Adams
+STR-16,Aura Orlando Mall Outlet,Mall Outlet,Orlando,FL,South,10597,2017-08-10,Carolyn Daniel
+STR-17,Aura New York Flagship,Flagship Store,New York,NY,East,31515,2018-05-23,Devin Schaefer
+STR-18,Aura Boston Mall Outlet,Mall Outlet,Boston,MA,East,23928,2021-09-27,Frederick Tate
+STR-19,Aura Philadelphia Mall Outlet,Mall Outlet,Philadelphia,PA,East,21873,2017-06-23,Andrew Stewart
+STR-20,Aura Washington Standalone,Standalone Store,Washington,DC,East,13805,2019-04-12,Thomas Bradley
+STR-21,Aura Baltimore Standalone,Standalone Store,Baltimore,MD,East,15679,2019-09-05,Jonathan Wilkerson
+STR-22,Aura Pittsburgh Standalone,Standalone Store,Pittsburgh,PA,East,8278,2022-06-21,Derek Wright
+STR-23,Aura Newark Mall Outlet,Mall Outlet,Newark,NJ,East,12216,2021-10-11,Nicole Patterson
+STR-24,Aura Los Angeles Flagship,Flagship Store,Los Angeles,CA,West,30231,2021-12-18,Daniel Bright
+STR-25,Aura San Francisco Mall Outlet,Mall Outlet,San Francisco,CA,West,21924,2021-05-03,Peter Callahan Jr.
+STR-26,Aura Seattle Mall Outlet,Mall Outlet,Seattle,WA,West,20574,2018-05-13,Jennifer Brown
+STR-27,Aura Phoenix Standalone,Standalone Store,Phoenix,AZ,West,14276,2020-03-31,Julie King
+STR-28,Aura Denver Standalone,Standalone Store,Denver,CO,West,13273,2021-09-15,Alexandra Le
+STR-29,Aura San Diego Mall Outlet,Mall Outlet,San Diego,CA,West,13841,2021-07-27,Patricia Peterson
+STR-30,Aura Portland Express,Express Store,Portland,OR,West,6837,2019-07-01,Jesse Mckay
